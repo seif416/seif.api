@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI = 'mongodb://localhost:27017/noop-api';
+const MONGODB_URI = 'mongodb+srv://seifadelelpop:BFCTaQO5jAJOPKQv@cluster0.kct60v2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGODB_URI)
   .then(() => {
